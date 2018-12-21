@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Christmas - Made by: Kimmy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="script.js"></script>
+  <script type="text/javascript" src="snowstorm.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Text+Me+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Emilys+Candy" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Mountains+of+Christmas" rel="stylesheet">
+</head>
+<body>
+  <!--music-->
+  <embed name="music" src="music.mp3" loop="true" hidden="true" autostart="true">
+  <div id="sideNavScript" class="sideNavStyle">
+    <a href="javascript:void(0)" class="xbtn" onclick="closeNav()">&times;</a>
+    <a href="https://en.wikipedia.org/wiki/Santa_Claus">Who is Santa Claus</a>
+    <a href="https://www.noradsanta.org/#section-village">Where does Santa live</a>
+    <a href="https://www.santasnorthpole.com/make-cookie-santa">Bake cookies for Santa</a>
+    <a href="https://santatracker.google.com/village.html">Play with elves</a>
+  </div>
+  <div id="sideNavIcon">
+    <span style="font-size:80px;cursor:pointer;color:white;" onclick="openNav()">&#9776;</span>
+  </div>
+  <!--Rubriken "Merry Christmas"-->
+  <h1 id= "merrychristmas">Merry Christmas</h1>
+  <!--Stoppuret-->
+  <p id="countdown"></p>
+  <!--Rubriken "Write a letter to Santa Claus"-->
+  <div>
+    <h1 id = "lettertosantatitle">Write a letter to Santa Claus</h1>
+    <p class="leftarrow">&#8595;</p>
+  </div>
+  <!--Image & GIF-->
+  <img id="images" onclick="changeImage()" src="present.png" width="400" height="480" alt="Present">
+  <!--Rubriken "Your wishlist"-->
+  <div>
+    <h1 id = "wishlisttitle">Your wishlist</h1>
+    <p class="rightarrow">&#8595;</p>
+  </div>
+  <form id="letterform" action="index.html">
+  Your name:<br>
+  <input type="text" name="name" size="24"><br>
+  <br>
+  Your address:<br>
+  <input type="text" name="address" size="54">
+  <br><br>
+  Your message:<br>
+  <textarea rows="7" cols="55"></textarea>
+  <button id="letterbutton" type="reset" value="Submit">Send letter</button>
+  </form>
+
+  <form id="wishlistform" action="index.html" method="get">
+    <input type="checkbox" name="thing" value="Bike"> Bike<br>
+    <input type="checkbox" name="thing" value="Car"> Car<br>
+    <input type="checkbox" name="thing" value="Stuffed toy"> Stuffed toy<br>
+    <input type="checkbox" name="thing" value="TV"> TV<br>
+    <input type="checkbox" name="thing" value="Mobile"> Mobile<br>
+    <input type="checkbox" name="thing" value="Computer"> Computer<br>
+    <input type="checkbox" name="thing" value="Clothes"> Clothes<br>
+    <input type="checkbox" name="thing" value="Trip"> Trip<br>
+    <button id="wishlistbutton" type="reset" value="Submit">Send wishlist</button>
+  </form>
+</body>
+</html>

@@ -1,0 +1,161 @@
+body{
+  background-color: #ce0f29;
+  overflow: hidden;
+}
+
+/*Huvudrubrik*/
+#merrychristmas{
+  position: absolute;
+  font-family: 'Emilys Candy', cursive;
+  font-size: 150px;
+  text-align: center;
+  color: white;
+  top: 0;
+  left:2.7em;
+}
+
+/*Countdown*/
+#countdown{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  right: 50%;
+  width: 30%;
+  height: 12%;
+  transform: translate(-50%, -50%);
+  background-color: #0a5d1a;
+  color: white;
+  border: 1px solid white;
+  font-family: 'Text Me One', sans-serif;
+  font-size: 60px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Bilderna*/
+#images{
+  position: absolute;
+  bottom: 4em;
+  left: 47em;
+}
+
+/*Sidofunktionerna*/
+#lettertosantatitle{
+  position: absolute;
+  left: 4em;
+  bottom: 14em;
+  color: #26df1b;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 2.5em;
+}
+
+#wishlisttitle{
+  position: absolute;
+  right: 6.5em;
+  bottom: 14em;
+  color: #26df1b;
+  font-family: 'Mountains of Christmas', cursive;
+  font-size: 2.5em;
+}
+
+.leftarrow, .rightarrow{
+  position: absolute;
+  font-size: 4em;
+  color: white;
+}
+
+.leftarrow{
+  left: 5em;
+  bottom: 7.3em;
+}
+
+.rightarrow{
+  right: 5em;
+  bottom: 7.2em;
+}
+
+#letterform{
+  position: absolute;
+  top: 14em;
+  left: 4.8em;
+  width: 25vw;
+  height: 52vh;
+  font-family: 'Emilys Candy', cursive;
+  color: white;
+  font-size: 2em;
+}
+
+#wishlistform{
+  position: absolute;
+  top: 15em;
+  right: 2em;
+  width: 25vw;
+  height: 52vh;
+  font-family: 'Emilys Candy', cursive;
+  color: white;
+  font-size: 2em;
+}
+
+#letterbutton, #wishlistbutton{
+  position: absolute;
+  width: 9vw;
+  height: 5vh;
+  left: 5em;
+  top: 18em;
+  color: white;
+  background-color: #0a5d1a;
+  font-family: 'Emilys Candy', cursive;
+  font-size: 0.7em;
+}
+
+#letterbutton{
+  left: 5em;
+  top: 18em;
+}
+
+#wishlistbutton{
+  right: 8em;
+  top: 16.5em;
+}
+
+/*Menyn*/
+.sideNavStyle {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ce0f29;
+  color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 100px;
+}
+
+.sideNavStyle a {
+  padding: 10px 10px 30px 32px;
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+  font-family: 'Emilys Candy', cursive;
+}
+
+.sideNavStyle a:hover {
+  color: #0a5d1a;
+}
+
+.sideNavStyle .xbtn {
+  position: absolute;
+  top: 0;
+  font-size: 36px;
+  left: 5em;
+}
+
+#sideNavIcon {
+  position: absolute;
+}
